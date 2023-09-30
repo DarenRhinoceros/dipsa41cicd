@@ -91,7 +91,7 @@ jobs:
                   "text": {
 
                     "type": "mrkdwn",
-                    "text": "*Deployment:*\n<${{steps.deployment_url.outputs.url}}|Open application>\n${{steps.deployment_url.outputs.url}}"
+                    "text": "*Deployment:*\n<${{steps.deployment_url.outputs.url}}|Open application> (${{steps.deployment_url.outputs.url}})"
 
                   }
                 }
